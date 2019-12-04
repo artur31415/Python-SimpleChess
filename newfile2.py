@@ -37,9 +37,9 @@ class ChessPiece:
 		#otherLetter = otherBoardPos[:2]
 		#otherNumber = str(otherBoardPos[2:])
 		if(self.GetBoardPos() == otherBoardPos):
-			return true
+			return True
 		else:
-			return false
+			return False
 
 ########################
 
